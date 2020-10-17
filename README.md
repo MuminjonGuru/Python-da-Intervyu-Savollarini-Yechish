@@ -67,3 +67,63 @@
     
     my_list = [1,2,3,4,5]
     print(30 in my_list)
+    
+    
+## String Manipulation
+
+    s1 = 'hello'
+    s2 = 'salom'
+    print(s1)
+    print(s2)
+    
+    print(str("hello"))
+    print(str(11.5))
+    print(str([1,2,3,4,5]))
+    
+    #########################
+    
+    class NewClass:
+      def __init__(self, num):
+        self.num = num
+    
+      def __str(self):
+        return str(self.num)
+    
+    nc = NewClass(222)
+    print(str(nc))
+    
+    #########################
+    
+    S = "windows4ever"
+    print(S[1])
+    print(S[-2])
+    print(S[1:4])
+    print(S[2:])
+    print(S[:3])
+    print(S.index('4'))
+    
+    S1 = "Windows"
+    S2 = S1 + "4Ever"
+    Print(S2)
+    	
+    # replace a substring
+    S1 = 'OneNote is the Best!'
+    S2 = s1.replace('OneNote', 'Microsoft365')
+    	
+    # upper case
+    S3 = S2.upper()
+    	
+    # lower case
+    S4 = S3.lower()
+    	
+    # capitalization
+    S5 = S4.capitalize
+    
+    #########################
+    
+    l = ['Do', 'you', 'love', 'em']
+    s = ' '.join(l)
+    print(s)
+    
+    l1 = s.split(' ')
+    print(l1)    
